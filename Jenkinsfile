@@ -18,3 +18,9 @@ pipeline {
         }
     }
 }
+
+post{
+    success{
+        echo 'This pipeline runs poll SCM !!!!' 
+    }
+}
